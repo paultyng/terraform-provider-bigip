@@ -1829,7 +1829,7 @@ type HttpProfile struct {
 	Description               string                      `json:"description,omitempty"`
 	EncryptCookieSecret       string                      `json:"encryptCookieSecret,omitempty"`
 	EncryptCookies            []string                    `json:"encryptCookies,omitempty"`
-	FallbackHost              string                      `json:"fallbackHost"`
+	FallbackHost              string                      `json:"fallbackHost,omitempty"`
 	FallbackStatusCodes       []string                    `json:"fallbackStatusCodes,omitempty"`
 	HeaderErase               string                      `json:"headerErase,omitempty"`
 	HeaderInsert              string                      `json:"headerInsert,omitempty"`
